@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	border: none;
+}
+
+html {
+	margin: 0;
+	font-size: 200%
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	background: url("green.jpg"), rgb(232, 202, 111);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header { 
+	display: block;
+	text-align: center;
+	font-family: 'Dawning of a New Day', cursive;
+	margin-bottom: 15em;
+}
+
+.page-wrap {
+	padding: 20px;
+
+}
+
+
+.name {
+	text-align: center;
+	font-size: 350%;
+}
+
+nav {
+	background-color: rgba( 250, 237, 174, 0.4);
+}
+
+nav li a {
+	display: block;
+	padding: 0.25em;
+	text-decoration: none;
+	color: #222;
+
+}
+
+nav li a:hover, 
+nav li a:focus {
+	color: purple;
+}
+
+nav ul { 
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	margin: 0;
+	margin-bottom: 15em;
+}
+nav li {
+	min-width: 150px;
+	flex-grow: 1;
+	font-size: 1.5em;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Dawning of a New Day', cursive;
+}
+
+
+
+.textbox {
+	background-color: rgba( 250, 237, 174, 0.5);
+	width: 40%;
+	padding: 3em;
+	margin: 0 auto;
+	border-radius: 1em;
+	font-family: 'Glegoo', serif;
+	font-size: 110%;
+	text-align: center;
+}
+
+#blog .textbox {
+	margin-bottom: 50px;
+	
+}
+
+#blog a {
+	display: block;
+	padding: 0.25em;
+	text-decoration: none;
+	color: #222;
+	font-size: 80%;
+	/*text-align: right;*/
+}
+
+#blog a:hover, 
+#blog a:focus {
+	color: purple;
+}
+
+#contact .textbox {
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 150%;
+	padding: 1em;
+
+}
+ 
+#about {
+	margin-bottom: 50px;
+} 
+
+.contact {
+	margin-top: 65% 0 45% 0;
+	text-align: center;
+	font-size: 300%;
+	display: block;
+	/*background-image: url("dryflower.jpg");*/
+	background-size: cover;
+
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+	width: 100px;
+}
+
+textarea:focus, input:focus {
+	border: 2px solid purple;
+}
+
+
+
