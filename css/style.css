@@ -11,7 +11,7 @@ html {
 
 body {
 	margin: 0;
-	background: url("green.jpg"), rgb(232, 202, 111);
+	background: url("../img/green.jpg"), rgb(232, 202, 111);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
