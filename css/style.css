@@ -24,7 +24,8 @@ header {
 }
 
 .page-wrap {
-	padding: 20px;
+	padding: 2%;
+
 
 }
 
@@ -142,5 +143,13 @@ textarea:focus, input:focus {
 	border: 2px solid purple;
 }
 
+#resume {
+ margin: 0 auto;
+ max-width: 1280px;
+ border: 5px solid tan;
+}
 
+#resume img {
+	display: block;
+}
 
