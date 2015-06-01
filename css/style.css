@@ -19,14 +19,12 @@ body {
 header { 
 	display: block;
 	text-align: center;
-	font-family: 'Dawning of a New Day', cursive;
+	font-family: 'Montez', cursive;
 	margin-bottom: 15em;
 }
 
 .page-wrap {
 	padding: 2%;
-
-
 }
 
 
@@ -76,7 +74,7 @@ img {
 h2 {
 	text-align: center;
 	font-size: 150%;
-	font-family: 'Dawning of a New Day', cursive;
+	font-family: 'Montez', cursive;
 }
 
 
@@ -97,19 +95,7 @@ h2 {
 	
 }
 
-#blog a {
-	display: block;
-	padding: 0.25em;
-	text-decoration: none;
-	color: #222;
-	font-size: 80%;
-	/*text-align: right;*/
-}
 
-#blog a:hover, 
-#blog a:focus {
-	color: purple;
-}
 
 #contact .textbox {
 	font-family: 'Dawning of a New Day', cursive;
@@ -144,12 +130,25 @@ textarea:focus, input:focus {
 }
 
 #resume {
- margin: 0 auto;
- max-width: 1280px;
- border: 5px solid tan;
+	margin: 0 auto;
+ 	max-width: 1280px;
+ 	border: 5px solid tan;
 }
 
 #resume img {
 	display: block;
 }
 
+.readmore {
+	font-size: 150%;
+	display: block;
+	padding: 0.25em;
+	text-decoration: none;
+	color: #222;
+	/*text-align: right;*/
+}
+
+.readmore:hover, 
+.readmore:focus {
+	color: purple;
+}
